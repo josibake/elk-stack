@@ -1,0 +1,13 @@
+{
+  "template": "car-*",
+  "mappings": {
+    "events": {
+      "properties": {
+        "Time": {
+          "type": "date",
+          "format": "epoch_second"
+        }
+      }
+    }
+  }
+}
