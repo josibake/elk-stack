@@ -1,0 +1,9 @@
+curl -XPUT 'localhost:9200/_template/cars' -H 'Content-Type: application/json' -d @car-template.json
+
+export ELASTIC_HOST="https://3fd38646da90fb7d85ed8a3bc77cae00.us-east-1.aws.found.io:9243"
+export ELASTIC_USER="elastic"
+export ELASTIC_PASSWD="XSgUQag65qoYk3o8MyAlSeHT"
+
+curl -XDELETE '${ELASTIC_HOST}/car-*' \
+	-u ${ELASTIC_USER}:${ELASTIC_PASSWD} \
+		-H 'Content-Type: application/json' 

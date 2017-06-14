@@ -1,0 +1,8 @@
+{
+  "indices": [
+    {
+      "names": [ "car-jm1ndac75g0106947" ],
+      "privileges": [ "read" ]
+    }
+  ]
+}'

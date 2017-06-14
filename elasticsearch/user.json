@@ -1,0 +1,6 @@
+{
+  "password" : "test123!!",
+  "roles" : [ "kibana_user", "emerson" ],
+  "full_name" : "Josiah Baker",
+  "email" : "josiahfbaker@gmail.com"
+}

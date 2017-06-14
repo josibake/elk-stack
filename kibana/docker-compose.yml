@@ -1,0 +1,10 @@
+---
+version: '2'
+services:
+  kibana:
+    image: docker.elastic.co/kibana/kibana:5.4.1
+    environment:
+      ELASTICSEARCH_URL: https://3fd38646da90fb7d85ed8a3bc77cae00.us-east-1.aws.found.io:9243
+      ELASTICSEARCH_USERNAME: elastic
+      ELASTICSEARCH_PASSWORD: XSgUQag65qoYk3o8MyAlSeHT
+      KIBANA_INDEX: .kibana-emerson1
